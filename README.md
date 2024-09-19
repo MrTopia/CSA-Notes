@@ -71,12 +71,15 @@ Ans- Register transfer involves moving data between registers in a computer’s 
 Overall, register transfer ensures smooth execution of operations and efficient data handling within the CPU.
 
 ### 8. Explain the concept and operation of a three-state bus buffer.
-Ans- A tri-state buffer is a type of digital circuit that can be in one of three states: 
+Ans- A **three-state buffer**, also known as a **tri-state buffer**, is a digital circuit element used in logic circuits to control the flow of data. It can be in one of three states:
 
-1. **High (1)**: The buffer outputs a high voltage level.
-2. **Low (0)**: The buffer outputs a low voltage level.
-3. **High Impedance (Z)**: The buffer is effectively disconnected from the circuit, presenting no load to the line.
+1. **Logical High (1)**: The output of the buffer is connected to the logic high state, sending a high voltage signal.
+2. **Logical Low (0)**: The output of the buffer is connected to the logic low state, sending a low voltage signal.
+3. **High Impedance (Z)**: The output is effectively disconnected from the circuit, behaving as if it is not driving any signal at all. This state is also called the "third state" or "tri-state."
 
+The key feature of a three-state buffer is the **control input**. Depending on this control input, the buffer can either pass the input signal (logical 1 or 0) to the output or switch to the high-impedance state, allowing other devices to drive the signal line without interference.
+
+Three-state buffers are useful in shared bus systems where multiple devices need to communicate over the same data line without conflict. By placing the buffer in the high-impedance state, a device can effectively "disconnect" from the bus, allowing another device to take control.
 The high impedance state allows multiple outputs to share a common bus without interfering with each other, essential for bus systems in digital circuits where only one device should drive the bus at a time.
 
 ### 9. Differentiate between arithmetic and logical micro-operations.
