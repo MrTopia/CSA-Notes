@@ -605,20 +605,50 @@ Ans- In computer architecture, CPU organization refers to how the CPU registers 
 In summary, accumulator-based organizations are simpler but less flexible, general register organizations offer greater flexibility and efficiency, and stack-based organizations excel in managing function calls and local variables but may be less flexible for general operations.
 
 ### 21. Contrast hardwired control units with micro-programmed control units.
+Ans- 
+
 ### 22. What is control memory, and how does it function in micro-programmed control?
+Ans- 
+
 ### 23. Describe the address sequencing and conditional branching in micro-programming.
+Ans- 
+
 ### 24. Explain the design considerations for a control unit.
+Ans- 
+
 ### 25. What are the functions of the Program Counter (PC) and Stack Pointer (SP) registers?
+Ans-
+
 ### 26. Describe the roles of the Memory Address Register (MAR) and Instruction Register (IR).
+Ans- 
+
 ### 27. What is the purpose of the Memory Buffer Register (MBR) and Flag registers?
+Ans- 
+
 ### 28. Define operational codes (opcodes) and operands in the context of instructions.
+Ans- 
+
 ### 29. Differentiate between zero, one, two, and three address instructions.
+Ans- 
+
 ### 30. Explain the different types of addressing modes and their applications.
+Ans- 
+
 ### 31. What are data transfer and manipulation instructions?
+Ans- 
+
 ### 32. Describe the purpose of program control instructions.
+Ans- 
+
 ### 33. What are the main characteristics of CISC processors?
+Ans- 
+
 ### 34. Compare CISC and RISC processors in terms of architecture and performance.
+Ans- 
+
 ### 35. Discuss the relative merits and demerits of CISC and RISC processors.
+Ans- 
+
 ### 36. Explain the difference between polling and interrupts in I/O organization.
 ### 37. Describe memory-mapped I/O and I/O-mapped I/O.
 ### 38. What is Direct Memory Access (DMA), and how does it work?
